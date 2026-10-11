@@ -6,6 +6,6 @@ Keep setup keys, session cookies, invitation links, and database credentials pri
 
 ## Report a concern
 
-Please report security issues privately through the repository's Security tab when private reporting is enabled. If it is unavailable, contact the repository maintainers through a private channel. Do not publish secrets, exploit details, or personal data in a public issue.
+Please report security issues privately through this repository's Security tab using Report a vulnerability. Private vulnerability reporting is enabled. If GitHub reporting is unavailable, use a private maintainer contact rather than a public issue. Do not publish secrets, exploit details, or personal data in a public issue.
 
 Security review of the source does not certify the deployed service. Deployment settings, account controls, and operational practices also affect security.

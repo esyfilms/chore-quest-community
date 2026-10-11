@@ -15,3 +15,5 @@ This is a scoped source review and regression check, not a penetration test or a
 Screenshot names refer to the synthetic local preview, not an online household. No cloud family records were used to create them.
 
 Pre-publication tracked-file checks passed for personal strings and paths, private credential byte matches, forbidden original-mascot frame hashes, screenshot EXIF and live deployment identifiers. Eight generic PNG files had non-rendering provenance metadata removed; exact IDAT image payloads were preserved. WebP illustrations contain only VP8L image payloads. The new Git history uses a neutral contributor name/email; the GitHub owner remains visible.
+
+Publication check: the repository is public and its initial source snapshot is `480932d`. A fresh shallow clone successfully installed the pinned dependencies, passed all 27 tests and documentation links, and built both cloud and sample outputs. Private vulnerability reporting is enabled on GitHub. Public source publication does not deploy a shared family service.
