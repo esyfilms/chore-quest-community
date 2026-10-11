@@ -1,0 +1,16 @@
+node_modules/
+.npm-cache/
+.wrangler/
+cloudflare/public/
+test-app/
+.env*
+.dev.vars
+cloudflare/.dev.vars
+*.log
+*.sqlite*
+*.db
+*.db-*
+*.key
+*.pem
+.DS_Store
+private/

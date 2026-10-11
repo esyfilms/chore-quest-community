@@ -1,0 +1,22 @@
+{
+  "name": "chore-quest-community",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:check": "node scripts/check-docs.mjs",
+    "dev": "wrangler dev --config cloudflare/wrangler.jsonc",
+    "build": "node cloudflare/build.mjs",
+    "test": "node --test cloudflare/test/*.test.mjs",
+    "db:local": "wrangler d1 migrations apply DB --local --config cloudflare/wrangler.jsonc",
+    "deploy": "npm run docs:check && npm run build && wrangler deploy --config cloudflare/wrangler.jsonc",
+    "preview:build": "node scripts/test-preview.mjs",
+    "preview": "npm run preview:build && node scripts/serve-demo.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.149.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}

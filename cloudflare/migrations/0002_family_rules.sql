@@ -1,0 +1,7 @@
+CREATE TABLE family_rules (
+ id TEXT PRIMARY KEY,
+ name TEXT NOT NULL CHECK(length(name) BETWEEN 1 AND 120),
+ deduction INTEGER NOT NULL DEFAULT 0 CHECK(deduction BETWEEN 0 AND 100000),
+ created_by TEXT NOT NULL REFERENCES users(id),
+ created_at INTEGER NOT NULL
+);

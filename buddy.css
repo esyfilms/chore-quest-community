@@ -1,0 +1,10 @@
+.buddy-pet{display:inline-grid;place-items:center;border:0;background:transparent;padding:0;margin:0;min-width:44px;min-height:44px;cursor:pointer;touch-action:manipulation;border-radius:14px;vertical-align:middle;color:inherit;flex-shrink:0}
+.buddy-pet:focus-visible{outline:3px solid #b65443;outline-offset:2px}.buddy-pet:active{background:#6d855514}
+.buddy-pet img{display:block;image-rendering:pixelated;object-fit:contain;mix-blend-mode:normal!important;pointer-events:none}
+.buddy-pet:has(.dog),.buddy-pet:has(.auth-dog){width:128px;height:128px}.buddy-pet .dog,.buddy-pet .auth-dog{width:128px!important;height:128px!important;margin:0!important;max-width:none}
+.card-art{pointer-events:auto!important}.card-art .buddy-pet{width:100%;height:100%}.card-art .buddy-pet img{width:100%;height:100%}
+@media(prefers-reduced-motion:reduce){.buddy-pet{animation:none;transition:none}}
+
+.journal-feedback .buddy-pet{width:64px;height:64px}.journal-feedback .buddy-event{width:64px!important;height:64px!important;object-fit:contain}
+
+.buddy-pet img{transform:translateX(var(--buddy-walk,0px)) scaleX(var(--buddy-facing,1))}

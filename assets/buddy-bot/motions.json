@@ -1,0 +1,34 @@
+{
+  "front-idle": {
+    "frames": 8,
+    "frameMs": 260
+  },
+  "front-pet": {
+    "frames": 8,
+    "frameMs": 120
+  },
+  "front-happy": {
+    "frames": 8,
+    "frameMs": 120
+  },
+  "jump": {
+    "frames": 8,
+    "frameMs": 120
+  },
+  "walk": {
+    "frames": 8,
+    "frameMs": 120
+  },
+  "bark": {
+    "frames": 8,
+    "frameMs": 120
+  },
+  "wag": {
+    "frames": 8,
+    "frameMs": 120
+  },
+  "paw": {
+    "frames": 7,
+    "frameMs": 120
+  }
+}
